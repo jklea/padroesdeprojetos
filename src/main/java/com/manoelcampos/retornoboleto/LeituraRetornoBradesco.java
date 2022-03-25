@@ -15,7 +15,6 @@ import java.util.List;
  * Realiza a leitura de arquivos de retorno de boletos bancários no formato do Banco do Bradesco.
  * Esta classe usa o padrão Strategy, representando a implementação da estratégia {@link LeituraRetorno}.
  *
- * @author Manoel Campos da Silva Filho
  */
  // tag::class-start[]
 public class LeituraRetornoBradesco implements LeituraRetorno {
